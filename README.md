@@ -1,4 +1,5 @@
 # notesapp
+
 NotesApp
 
-https://codecoyotes.com/courses/react-node-notes-app/create-the-ui/create-react-app
+https://www.freecodecamp.org/news/full-stack-project-tutorial-create-a-notes-app-using-react-and-node-js/#part-2-create-the-backend
