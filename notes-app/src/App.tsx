@@ -151,13 +151,13 @@ const deleteNote = async (
             <div className="notes-header">
             <button onClick={(event) => deleteNote(event, note.note_id)}>x</button>
             </div>
+      <h2>Note Title</h2>
             <h2>{note.title}</h2>
+      <p>Note Content</p>
             <p>{note.content}</p>
             </div>
             ))}
       </div>
-      <h2>Note Title</h2>
-      <p>Note Content</p>
       </div>
   );
   };
