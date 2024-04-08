@@ -9,7 +9,7 @@ content: string;
 
 const App = () => {
   const [notes, setNotes] = useState<Note[]>([]);
-      
+
 const [title, setTitle] = useState("");
 const [content, setContent] = useState("");
 const [selectedNote, setSelectedNote] = useState<Note | null>(null);
@@ -151,9 +151,9 @@ const deleteNote = async (
             <div className="notes-header">
             <button onClick={(event) => deleteNote(event, note.note_id)}>x</button>
             </div>
-      <h2>Note Title</h2>
+              <p className="label">Note Title: </p>
             <h2>{note.title}</h2>
-      <p>Note Content</p>
+              <p className="label">Note Content: </p>
             <p>{note.content}</p>
             </div>
             ))}
